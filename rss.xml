@@ -11,11 +11,18 @@
       <link>https://sirvitalas.github.io/</link>
   </image>
   <item>
-      <title>News  of today</title>
+      <title>Awesome News!</title>
+      <link>https://sirvitalas.github.io/page.html</link>
+      <description>Test!</description>
+      <id>4</id>
+      <pubDate>Thu, 13 Dec 2018 11:30:00 +0300</pubDate>
+  </item>
+  <item>
+      <title>New!</title>
       <link>https://sirvitalas.github.io/</link>
-      <description>All you need to know about RSS</description>
-      <id>1</id>
-      <pubDate>Thu, 13 Dec 2018 11:01:00 +0300</pubDate>
+      <description>Test!</description>
+      <id>3</id>
+      <pubDate>Thu, 13 Dec 2018 11:20:00 +0300</pubDate>
   </item>
   <item>
       <title>News of tomorrows</title>
@@ -23,20 +30,13 @@
       <description>And now, all about RDF</description>
       <id>2</id>
       <pubDate>Thu, 13 Dec 2018 11:01:00 +0300</pubDate>
-    </item>
+  </item>
   <item>
-      <title>New!</title>
+      <title>News  of today</title>
       <link>https://sirvitalas.github.io/</link>
-      <description>Test!</description>
-      <id>3</id>
-      <pubDate>Thu, 13 Dec 2018 11:20:00 +0300</pubDate>
-    </item>
-  <item>
-      <title>Awesome News!</title>
-      <link>https://sirvitalas.github.io/page.html</link>
-      <description>Test!</description>
-      <id>4</id>
-      <pubDate>Thu, 13 Dec 2018 11:30:00 +0300</pubDate>
-    </item>
+      <description>All you need to know about RSS</description>
+      <id>1</id>
+      <pubDate>Thu, 13 Dec 2018 11:01:00 +0300</pubDate>
+  </item>
 </channel>
 </rss> 
