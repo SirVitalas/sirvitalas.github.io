@@ -31,5 +31,12 @@
       <id>3</id>
       <pubDate>Thu, 13 Dec 2018 11:20:00 +0300</pubDate>
     </item>
+  <item>
+      <title>Awesome News!</title>
+      <link>https://sirvitalas.github.io/page.html</link>
+      <description>Test!</description>
+      <id>4</id>
+      <pubDate>Thu, 13 Dec 2018 11:30:00 +0300</pubDate>
+    </item>
 </channel>
 </rss> 
