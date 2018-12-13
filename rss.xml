@@ -2,20 +2,20 @@
 <rss version="2.0">
 <channel>
   <title>Ajax and XUL</title>
-  <link>https://www.xul.fr/en/</link>
+  <link>https://sirvitalas.github.io/</link>
   <description>XML graphical interface etc...</description>
   <image>
       <url>https://www.xul.fr/xul-icon.gif</url>
-      <link>https://www.xul.fr/en/index.php</link>
+      <link>https://sirvitalas.github.io/</link>
   </image>
   <item>
       <title>News  of today</title>
-      <link>https://www.xul.fr/en-xml-rss.html</link>
+      <link>https://sirvitalas.github.io/</link>
       <description>All you need to know about RSS</description>
   </item>
   <item>
       <title>News of tomorrows</title>
-      <link>https://www.xul.fr/en-xml-rdf.html</link>
+      <link>https://sirvitalas.github.io/</link>
       <description>And now, all about RDF</description>
     </item>
 </channel>
