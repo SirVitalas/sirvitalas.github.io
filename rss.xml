@@ -4,6 +4,8 @@
   <title>Ajax and XUL</title>
   <link>https://sirvitalas.github.io/</link>
   <description>XML graphical interface etc...</description>
+  <ttl>5</ttl>
+  <language>ru</language>
   <image>
       <url>https://www.xul.fr/xul-icon.gif</url>
       <link>https://sirvitalas.github.io/</link>
@@ -12,11 +14,15 @@
       <title>News  of today</title>
       <link>https://sirvitalas.github.io/</link>
       <description>All you need to know about RSS</description>
+      <id>1</id>
+      <pubDate>Thu, 13 Dec 2018 11:01:07 +0300</pubDate>
   </item>
   <item>
       <title>News of tomorrows</title>
       <link>https://sirvitalas.github.io/</link>
       <description>And now, all about RDF</description>
+      <id>2</id>
+      <pubDate>Thu, 13 Dec 2018 11:001:00 +0300</pubDate>
     </item>
 </channel>
 </rss> 
