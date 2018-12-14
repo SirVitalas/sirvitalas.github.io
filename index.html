@@ -37,12 +37,24 @@
 	</div>
 </div>
 
+<script type="text/javascript">
+	function sendData(){
+		console.log("Test!");
+		var x = document.getElementById("customNameX");
+		var y = document.getElementById("customNameY");
+		var z = document.getElementById("customNameZ");
+
+		console.log(x.value);
+		console.log(y.value);
+		console.log(z.value);
+	}
+</script>
 
 <p>
-	<input class="sp_push_custom_data" type="text" name="nameX" placeholder="x">
-	<input class="sp_push_custom_data" type="text" name="nameY" placeholder="y">
-	<input class="sp_push_custom_data" type="text" name="nameZ" placeholder="z">
-	<input type=submit value="Subscribe"  class="sp_notify_prompt" >
+	<input class="sp_push_custom_data" id="customNameX" type="text" name="nameX" placeholder="x">
+	<input class="sp_push_custom_data" id="customNameY" type="text" name="nameY" placeholder="y">
+	<input class="sp_push_custom_data" id="customNameZ" type="text" name="nameZ" placeholder="z">
+	<input type=submit value="Subscribe"  class="sp_notify_prompt" onclick="sendData();" >
 </p>
 
 	<input class="sp_push_custom_data" type="hidden" name="megaX" value="notMegaX">
