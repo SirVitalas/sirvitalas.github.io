@@ -14,7 +14,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	<atom:link href="https://red.msk.ru/feed/" rel="self" type="application/rss+xml" />
 	<link>https://red.msk.ru</link>
 	<description>Новости КПРФ от портала «Красная Москва»</description>
-	<lastBuildDate>Fri, 18 Jan 2019 08:14:05 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Mar 2019 08:14:05 +0000</lastBuildDate>
 	<language>ru-RU</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -30,7 +30,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	<item>
 		<title>&#171;Государственная граница России – неприкосновенна!&#187; Митинг 20 января</title>
 		<link>https://red.msk.ru/gosudarstvennaya-granica-rossii-neprikosnovenna-miting-20-yanvarya/</link>
-		<pubDate>Fri, 18 Jan 2019 08:13:37 +0000</pubDate>
+		<pubDate>Wen, 13 Mar 2019 08:13:37 +0000</pubDate>
 		<dc:creator><![CDATA[redaktor]]></dc:creator>
 				<category><![CDATA[Анонсы]]></category>
 		<category><![CDATA[Putin]]></category>
@@ -49,7 +49,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 		<item>
 		<title>СМИ: Ритейлеры жалуются на отсутствие денег у россиян</title>
 		<link>https://red.msk.ru/smi-ritejlery-zhaluyutsya-na-otsutstvie-deneg-u-rossiyan/</link>
-		<pubDate>Fri, 18 Jan 2019 06:47:50 +0000</pubDate>
+		<pubDate>Wen, 13 Mar 2019 06:47:50 +0000</pubDate>
 		<dc:creator><![CDATA[redaktor]]></dc:creator>
 				<category><![CDATA[Блоги]]></category>
 		<category><![CDATA[Экономика]]></category>
