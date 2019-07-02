@@ -4,12 +4,12 @@
     <link>https://www.instaleb.me/featuredrss</link>
     <description>Featured Articles</description>
     <language>ar</language>
-     <atom:link href="https://www.instaleb.me/featuredrss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://sirvitalas.github.io/featuredrss" rel="self" type="application/rss+xml" />
      <item>
-    <title>2١٠٠ مليار للاسكان2</title>
+    <title>Test</title>
     <link>https://www.instaleb.me/</link>
     <description></description>
-     <pubDate>Thu, 27 Jun 2019 10:19:58 +0300</pubDate>
+     <pubDate>Mon, 01 Jul 2019 10:19:58 +0300</pubDate>
  <dc:creator>اخر الاخبار</dc:creator>
  <guid isPermaLink="false" />
   </item>
