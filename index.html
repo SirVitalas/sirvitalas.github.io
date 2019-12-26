@@ -24,6 +24,61 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<!--<script charset="UTF-8" src="//cdn.sendpulse.com/js/push/e11fa0b6d3392d3287037f4190b74d3d_1.js" async></script>-->
         	<!--<script charset="UTF-8" src="//cdn.sendpulse.com/js/push/b0b46d4b80f3d877529f957a69b0c72c_1.js" async></script>-->
 	</head>
+	
+ <script >
+        var Notification = "Notification !";
+        var add_to_cart = "Sepete Ekle";
+        var added_to_wishlist = "\u00dcr\u00fcn istek listesine ba\u015far\u0131yla eklendi.";
+        var addresserror = "You can complete preorder on your current address.";
+        var alertpreorder = "There is not enough product in stock.";
+        var baseDir = "https:\/\/avantaj.mobiltel.com.tr\/";
+        var baseUri = "https:\/\/avantaj.mobiltel.com.tr\/";
+        var caption = "Thank you for leaving the review.";
+        var checkpreorder_url = "https:\/\/avantaj.mobiltel.com.tr\/icerik\/preorder\/existspreordercustomer";
+        var comparator_max_item = 5;
+        var compare_add_text = "\u00dcr\u00fcn kar\u015f\u0131la\u015ft\u0131rma listesine eklendi";
+        var compare_button = "Kar\u015f\u0131la\u015ft\u0131rmaya Git";
+        var compare_remove_text = "\u00dcr\u00fcn kar\u015f\u0131la\u015ft\u0131rma listesinden ba\u015far\u0131yla kald\u0131r\u0131ld\u0131";
+        var compare_success = "\u00dcr\u00fcn kar\u015f\u0131la\u015ft\u0131rmadan ba\u015far\u0131yla kald\u0131r\u0131ld\u0131!";
+        var compare_text = "\u00dcr\u00fcn kar\u015f\u0131la\u015ft\u0131rmas\u0131na ba\u015far\u0131yla eklendi!";
+        var compare_title = "Kar\u015f\u0131la\u015ft\u0131rma listesi g\u00fcncellendi!";
+        var compare_title_error = "Dikkat!";
+        var compare_title_success = "Kar\u015f\u0131la\u015ft\u0131rma listesi g\u00fcncellendi!";
+        var comparedProductsIds = [];
+        var compared_products = [];
+        var contentOnly = true;
+        var current_cust_id = null;
+        var customPrice = "Custom price already exist for you.Please change the custom price.";
+        var customPriceLower = "Custom price must be lower than product price.";
+        var customer = 0;
+        var invalidPrice = "Please enter valid price.";
+        var isLogged = false;
+        var iso_code = "tr";
+        var loggin_required = "\u0130stek listenizi y\u00f6netmek i\u00e7in giri\u015f yapm\u0131\u015f olman\u0131z gerekir";
+        var loginerror = "Please login to buy preorder product.";
+        var loginreq = "To buy preorder product you need to login first.";
+        var minPrice = "Price should be equal to greater than minimum preorder price.";
+        var myaccout_url = "https:\/\/avantaj.mobiltel.com.tr\/hesabim";
+        var mywishlist_url = "https:\/\/avantaj.mobiltel.com.tr\/icerik\/fieldblockwishlist\/mywishlist";
+        var noLonger = "Pre booking is no longer available.";
+        var notAvailable = "Sorry! Preorder has been sold out.";
+        var notenoughstock = "There is not enough stock to buy preorder product.";
+        var path = "https:\/\/avantaj.mobiltel.com.tr\/icerik\/preorder\/availablepreorderproduct";
+        var preorder_now = "Preorder Now";
+        var prestashop = {"cart":{"products":[],"totals":{"total":{"type":"total","label":"Toplam","amount":0,"value":"0,00\u00a0\u20ba"},"total_including_tax":{"type":"total","label":"Toplam (vergi dahil)","amount":0,"value":"0,00\u00a0\u20ba"},"total_excluding_tax":{"type":"total","label":"Toplam (vergi hari\u00e7)","amount":0,"value":"0,00\u00a0\u20ba"}},"subtotals":{"products":{"type":"products","label":"Alt Toplam","amount":0,"value":"0,00\u00a0\u20ba"},"discounts":null,"shipping":{"type":"shipping","label":"Kargolama","amount":0,"value":"\u00dccretsiz"},"tax":null},"products_count":0,"summary_string":"0 \u00f6\u011fe","vouchers":{"allowed":1,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"name":"T\u00fcrk Liras\u0131","iso_code":"TRY","iso_code_num":"949","sign":"\u20ba"},"customer":{"lastname":null,"firstname":null,"email":null,"birthday":null,"newsletter":null,"newsletter_date_add":null,"optin":null,"website":null,"company":null,"siret":null,"ape":null,"is_logged":false,"gender":{"type":null,"name":null},"addresses":[]},"language":{"name":"T\u00fcrk\u00e7e (Turkish)","iso_code":"tr","locale":"tr-TR","language_code":"tr-tr","is_rtl":"0","date_format_lite":"Y-m-d","date_format_full":"Y-m-d H:i:s","id":1},"page":{"title":"","canonical":null,"meta":{"title":"Mobiltel \u0130leti\u015fim Hizmetleri ","description":"PrestaShop destekli Ma\u011faza","keywords":"","robots":"index"},"page_name":"index","body_classes":{"lang-tr":true,"lang-rtl":false,"country-TR":true,"currency-TRY":true,"layout-full-width":true,"page-index":true,"tax-display-enabled":true},"admin_notifications":[]},"shop":{"name":"Mobiltel \u0130leti\u015fim Hizmetleri ","logo":"\/img\/avantaj-mobiltel-logo-1558565676.jpg","stores_icon":"\/img\/logo_stores.png","favicon":"\/img\/favicon.ico"},"urls":{"base_url":"https:\/\/avantaj.mobiltel.com.tr\/","current_url":"https:\/\/avantaj.mobiltel.com.tr\/","shop_domain_url":"https:\/\/avantaj.mobiltel.com.tr","img_ps_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/","img_cat_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/c\/","img_lang_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/l\/","img_prod_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/p\/","img_manu_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/m\/","img_sup_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/su\/","img_ship_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/s\/","img_store_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/st\/","img_col_url":"https:\/\/avantaj.mobiltel.com.tr\/img\/co\/","img_url":"https:\/\/avantaj.mobiltel.com.tr\/themes\/sport_home1\/assets\/img\/","css_url":"https:\/\/avantaj.mobiltel.com.tr\/themes\/sport_home1\/assets\/css\/","js_url":"https:\/\/avantaj.mobiltel.com.tr\/themes\/sport_home1\/assets\/js\/","pic_url":"https:\/\/avantaj.mobiltel.com.tr\/upload\/","pages":{"address":"https:\/\/avantaj.mobiltel.com.tr\/adres","addresses":"https:\/\/avantaj.mobiltel.com.tr\/adresler","authentication":"https:\/\/avantaj.mobiltel.com.tr\/oturum-ac","cart":"https:\/\/avantaj.mobiltel.com.tr\/sepet","category":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=category","cms":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=cms","contact":"https:\/\/avantaj.mobiltel.com.tr\/bize-ulasin","discount":"https:\/\/avantaj.mobiltel.com.tr\/indirim","guest_tracking":"https:\/\/avantaj.mobiltel.com.tr\/ziyaretci-takibi","history":"https:\/\/avantaj.mobiltel.com.tr\/siparis-gecmisi","identity":"https:\/\/avantaj.mobiltel.com.tr\/kimlik","index":"https:\/\/avantaj.mobiltel.com.tr\/","my_account":"https:\/\/avantaj.mobiltel.com.tr\/hesabim","order_confirmation":"https:\/\/avantaj.mobiltel.com.tr\/siparis-onayi","order_detail":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=order-detail","order_follow":"https:\/\/avantaj.mobiltel.com.tr\/siparis-takip","order":"https:\/\/avantaj.mobiltel.com.tr\/siparis","order_return":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=order-return","order_slip":"https:\/\/avantaj.mobiltel.com.tr\/kredi-fisi","pagenotfound":"https:\/\/avantaj.mobiltel.com.tr\/sayfa-bulunamadi","password":"https:\/\/avantaj.mobiltel.com.tr\/sifre-kurtarma","pdf_invoice":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=pdf-invoice","pdf_order_return":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=pdf-order-return","pdf_order_slip":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=pdf-order-slip","prices_drop":"https:\/\/avantaj.mobiltel.com.tr\/fiyati-dusenler","product":"https:\/\/avantaj.mobiltel.com.tr\/index.php?controller=product","search":"https:\/\/avantaj.mobiltel.com.tr\/arama","sitemap":"https:\/\/avantaj.mobiltel.com.tr\/site haritas\u0131","stores":"https:\/\/avantaj.mobiltel.com.tr\/magazalar","supplier":"https:\/\/avantaj.mobiltel.com.tr\/tedarikci","register":"https:\/\/avantaj.mobiltel.com.tr\/oturum-ac?create_account=1","order_login":"https:\/\/avantaj.mobiltel.com.tr\/siparis?login=1"},"theme_assets":"\/themes\/sport_home1\/assets\/","actions":{"logout":"https:\/\/avantaj.mobiltel.com.tr\/?mylogout="}},"configuration":{"display_taxes_label":true,"is_catalog":true,"show_prices":false,"opt_in":{"partner":false},"quantity_discount":{"type":"discount","label":"\u0130ndirim"},"voucher_enabled":1,"return_enabled":1},"field_required":[],"breadcrumb":{"links":[{"title":"Ana Sayfa","url":"https:\/\/avantaj.mobiltel.com.tr\/"}],"count":1},"link":{"protocol_link":"https:\/\/","protocol_content":"https:\/\/"},"time":1577346054,"static_token":"aa5763454bfd9b467d65814942a8915b","token":"83ff1818da3788be35f51de78c7cde00"};
+        var productcompare_max_item = "\u00dcr\u00fcn kar\u015f\u0131la\u015ft\u0131rmas\u0131na 5'den fazla \u00fcr\u00fcn ekleyemezsiniz";
+        var productcompare_url = "https:\/\/avantaj.mobiltel.com.tr\/icerik\/fieldcompare\/FieldCompareProduct";
+        var search_url = "https:\/\/avantaj.mobiltel.com.tr\/arama";
+        var sold_out = "Sold Out";
+        var specificProcess = "https:\/\/avantaj.mobiltel.com.tr\/icerik\/preorder\/specificprocess";
+        var specificerror = "You have not set any specific price for preorder product.";
+        var static_token = "aa5763454bfd9b467d65814942a8915b";
+        var wishlistProductsIds = "";
+        var wishlist_button = "\u0130stek Listem'e Geri D\u00f6n";
+        var wishlist_button_login = "Giri\u015f'e Gidin!";
+        var wishlist_title_error = "Dikkat!";
+        var wishlist_title_success = "\u0130stek Listem G\u00fcncellendi!";
+      </script>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N65F3TS"
