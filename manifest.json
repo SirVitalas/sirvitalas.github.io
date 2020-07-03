@@ -1,7 +1,5 @@
 {
-  "name": "sirvitalas.github.io",
-  "short_name": "sirvitalas.github.io",
-  "gcm_sender_id": "335259723281",
-  "display": "standalone",
+  "name": "Gravitec SDK",
+  "gcm_sender_id": "330561634409",
   "gcm_user_visible_only": true
 }
