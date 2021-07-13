@@ -1,0 +1,1 @@
+importScripts("https://sirvitalasgithubio.push.world/https.serviceworker.js");
