@@ -53,7 +53,11 @@ window.addEventListener('load', function() {
 	</div>
 <script type="text/javascript">
 	function removeList(){
+		console.log("Remove listener");
+		lis = getEventListeners(window).message[0];
+		console.log(lis);
 		removeEventListener('message', getEventListeners(window).message[0].listener);
+		console.log("Done");
 	}
 </script>
 </div>
