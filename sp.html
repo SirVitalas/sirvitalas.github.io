@@ -49,10 +49,12 @@ window.addEventListener('load', function() {
 	</section>
 
 	<div>
-		<button class="button"><span>Subscribe </span></button>
+		<button class="button" onload="removeList()"><span>Subscribe </span></button>
 	</div>
 <script type="text/javascript">
-	removeEventListener('message', getEventListeners(window).message[0].listener);
+	function removeList(){
+		removeEventListener('message', getEventListeners(window).message[0].listener);
+	}
 </script>
 </div>
 </body>
