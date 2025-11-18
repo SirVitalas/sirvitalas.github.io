@@ -44,6 +44,24 @@
 		Best races in warhammer 40k are Tau and Tyranids
 	</div>
 <script>
+  document.addEventListener('spMessageSent', (event) => {
+    console.log('[Vitalas] visitor message sent', event.detail);
+  });
+    document.addEventListener('spMessageReceived', (event) => {
+    console.log('[LiveChat] visitor message sent', event.detail);
+  });
+    document.addEventListener('spLiveChatClosed', (event) => {
+    console.log('[LiveChat] visitor message sent', event.detail);
+  });
+    document.addEventListener('spLiveChatOpened', (event) => {
+    console.log('[LiveChat] visitor message sent', event.detail);
+  });
+    document.addEventListener('spLiveChatLoaded', (event) => {
+    console.log('[LiveChat] visitor message sent', event.detail);
+  });
+</script>
+
+<script>
 	document.addEventListener('spLiveChatLoaded', function(){
 		window.sp.liveChat.config({
 			primaryColor: '#8f00d1',
